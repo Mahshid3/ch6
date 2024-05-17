@@ -11,14 +11,12 @@ public class StringSwap {
         
         System.out.print("Enter the second string: ");
         String str2 = scanner.nextLine();
-        
-        // Swap the strings
+    
         String temp = str1;
         str1 = str2;
         str2 = temp;
         
-        System.out.println("After swapping:");
-        System.out.println("First string: " + str1);
-        System.out.println("Second string: " + str2);
+        System.out.println( str1);
+        System.out.println( str2);
     }
 }
